@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-               git credentialsId: '3e651961-5aed-4ccb-9fb8-fe1620d82abc', url: 'https://github.com/RakshithaG02/srinivas1987devops.git'
+               git credentialsId: 'Testjenkin', url: 'https://github.com/RakshithaG02/srinivas1987devops.git'
 
             }
         }
